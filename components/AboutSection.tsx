@@ -7,12 +7,18 @@ const skills = [
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "Python" },
+  { skill: "Django" },
   { skill: "React" },
   { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "Java" },
+  { skill: "AWS" },
+  { skill: "SQL" },
+  { skill: "MySQL" },
+  { skill: "PostgreSQL" },
+  { skill: "MongoDB" },
+  { skill: "Redis" },
   { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "Docker" },
 ]
 
 const AboutSection = () => {
@@ -38,9 +44,8 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I graduated from University of Hertfordshire, Hatfield in 2024
-              with a MS in Business Analytics and have been working in the
-              field ever since.
+              I am graduating from University of Hertfordshire, Hatfield in September, 2024
+              with a MS in Business Analytics.
             </p>
             <br />
             <p>

@@ -5,28 +5,36 @@ import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
+  // {
+  //   name: "RemoteTown",
+  //   description:
+  //     "Virtual office world for work, play, and collaboration with voice over.",
+  //   image: "/thankfulthoughts.png",
+  //   github: "https://github.com/iamrobins/dogefiles-web",
+  //   link: "https://remotetown.com",
+  // },
   {
-    name: "Thankful Thoughts",
-    description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    name: "Dogefiles.io",
+    description: "Free Secure Cloud Storage for Everyone with 30000 monthly visitors.",
+    image: "/dogefiles.png",
+    github: "https://github.com/iamrobins/dogefiles-web",
+    link: "https://www.dogefiles.io",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "DigiKeys",
+    description:
+      "DigiKey is an all-in-one payment processing and e-commerce solution. Accept payments, sell digital keys from your own and more, do it all with a single platform.",
+    image: "/digikeys.png",
+    github: "https://github.com/iamrobins/DigiKeys",
+    link: "https://www.youtube.com/watch?v=flauF5YODPg",
   },
   {
-    name: "Kator Family Photos",
+    name: "Public Chat Board",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "A public chat board with a machine learning model that filters toxicity in real-time.",
+    image: "/message-board.png",
+    github: "https://github.com/iamrobins/message-board-server",
+    link: "https://i.postimg.cc/yxGNKFsr/Slightly-Improved-Design.png",
   },
 ]
 
@@ -48,7 +56,7 @@ const ProjectsSection = () => {
                     <Link href={project.link}>
                       <Image
                         src={project.image}
-                        alt=""
+                        alt="Project Image"
                         width={1000}
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-70"
