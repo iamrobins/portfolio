@@ -5,20 +5,19 @@ import SlideUp from "./SlideUp"
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
-  // {
-  //   name: "RemoteTown",
-  //   description:
-  //     "Virtual office world for work, play, and collaboration with voice over.",
-  //   image: "/thankfulthoughts.png",
-  //   github: "https://github.com/iamrobins/dogefiles-web",
-  //   link: "https://remotetown.com",
-  // },
   {
     name: "Dogefiles.io",
     description: "Free Secure Cloud Storage for Everyone with 30000 monthly visitors.",
     image: "/dogefiles.png",
     github: "https://github.com/iamrobins/dogefiles-web",
     link: "https://www.dogefiles.io",
+  },
+  {
+    name: "MapInsight.ai",
+    description: "Plan you next travel with AI",
+    image: "/mapinsight.png",
+    github: "https://github.com/iamrobins/MapInsight",
+    link: "https://mapinsight.vercel.app",
   },
   {
     name: "DigiKeys",
