@@ -6,18 +6,18 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "MapInsight.ai",
+    description: "Plan your next travel with AI",
+    image: "/mapinsight.png",
+    github: "https://github.com/iamrobins/MapInsight",
+    link: "https://mapinsight.vercel.app",
+  },
+  {
     name: "Dogefiles.io",
     description: "Free Secure Cloud Storage for Everyone with 30000 monthly visitors.",
     image: "/dogefiles.png",
     github: "https://github.com/iamrobins/dogefiles-web",
     link: "https://www.dogefiles.io",
-  },
-  {
-    name: "MapInsight.ai",
-    description: "Plan you next travel with AI",
-    image: "/mapinsight.png",
-    github: "https://github.com/iamrobins/MapInsight",
-    link: "https://mapinsight.vercel.app",
   },
   {
     name: "DigiKeys",

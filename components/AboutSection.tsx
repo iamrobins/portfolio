@@ -2,24 +2,30 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
   { skill: "Python" },
+  { skill: "FastAPI" },
   { skill: "Django" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Java" },
-  { skill: "AWS" },
+  { skill: "Node.js" },
+  { skill: "Express.js" },
   { skill: "SQL" },
-  { skill: "MySQL" },
   { skill: "PostgreSQL" },
+  { skill: "MySQL" },
   { skill: "MongoDB" },
   { skill: "Redis" },
-  { skill: "Git" },
+  { skill: "LangChain" },
+  { skill: "OpenAI API" },
+  { skill: "Hugging Face" },
+  { skill: "LlamaIndex" },
+  { skill: "AWS" },
+  { skill: "GCP" },
   { skill: "Docker" },
-]
+  { skill: "Kubernetes" },
+  { skill: "Git" },
+  { skill: "Next.js" },
+  { skill: "React" },
+  { skill: "TypeScript" }
+];
+
 
 const AboutSection = () => {
   return (
@@ -40,11 +46,11 @@ const AboutSection = () => {
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in London, UK.
+              based in India.
             </p>
             <br />
             <p>
-              I am graduating from University of Hertfordshire, Hatfield in September, 2024
+              I am graduated from University of Hertfordshire, Hatfield, UK in September, 2024
               with a MS in Business Analytics.
             </p>
             <br />
