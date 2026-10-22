@@ -38,6 +38,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="projects"
+            href="#projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
@@ -52,6 +53,7 @@ const HeroSection = () => {
       <div className="flex flex-row items-center text-center justify-center ">
         <Link
           to="about"
+          href="#about"
           aria-label="Scroll to the About section"
           activeClass="active"
           spy={true}
