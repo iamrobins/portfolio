@@ -12,6 +12,8 @@ Fork or download the repo and change whatever you need to change for your needs.
 
 Can run the application in VS Code or a terminal and it will be available at `http://localhost:3000`.
 
+Requires Node.js 24 LTS.
+
 ```bash
 npm install
 npm run dev
