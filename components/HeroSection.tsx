@@ -18,14 +18,11 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Robin!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">AI Backend Engineer</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
-            </span>
-            based in India. Working towards creating software that
-            makes life easier and more meaningful.
+            I design and scale production-grade LLM infrastructure,
+            agentic workflows, and high-throughput microservices for
+            enterprise AI products.
           </p>
           <Link
             to="projects"

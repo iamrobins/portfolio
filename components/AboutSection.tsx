@@ -4,25 +4,17 @@ import Image from "next/image"
 const skills = [
   { skill: "Python" },
   { skill: "FastAPI" },
-  { skill: "Django" },
   { skill: "Node.js" },
-  { skill: "Express.js" },
-  { skill: "SQL" },
+  { skill: "LangGraph" },
+  { skill: "PydanticAI" },
   { skill: "PostgreSQL" },
-  { skill: "MySQL" },
-  { skill: "MongoDB" },
-  { skill: "Redis" },
+  { skill: "Docker" },
+  { skill: "AWS" },
+  { skill: "GenAI System Architecture" },
   { skill: "LangChain" },
   { skill: "OpenAI API" },
-  { skill: "Hugging Face" },
-  { skill: "LlamaIndex" },
-  { skill: "AWS" },
-  { skill: "GCP" },
-  { skill: "Docker" },
+  { skill: "Langfuse" },
   { skill: "Kubernetes" },
-  { skill: "Git" },
-  { skill: "Next.js" },
-  { skill: "React" },
   { skill: "TypeScript" }
 ];
 
@@ -39,37 +31,27 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Get to know me!
+              AI systems built for production
             </h1>
             <p>
-              Hi, my name is Robin and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in India.
+              I am an AI Backend Engineer with 3+ years of experience building
+              production-grade LLM infrastructure, agentic workflows, and
+              high-throughput microservices.
             </p>
             <br />
             <p>
-              I am graduated from University of Hertfordshire, Hatfield, UK in September, 2024
-              with a MS in Business Analytics.
+              At Publicis Sapient, I architect backend systems for Nissan and
+              Infiniti using FastAPI, Node.js, LangGraph, and multi-agent
+              orchestration. My work includes a customer-facing agentic chatbot
+              that increased engagement by 75%, a hybrid RAG training platform
+              that improved sales performance by 20%, and asynchronous
+              streaming APIs for a 3D vehicle configurator.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
-            <br />
-            <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I hold a Master of Science in Business Analytics &amp;
+              Consultancy, graduating with Distinction from the University of
+              Hertfordshire.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">

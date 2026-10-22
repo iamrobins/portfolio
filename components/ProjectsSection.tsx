@@ -6,34 +6,19 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
+    name: "MockMeisterAI",
+    description:
+      "A real-time system design interview platform built with React, Node.js, OpenAI Realtime WebRTC, and a browser-rendered 3D interviewer. It supports five technical challenges and natural voice interruption, with Excalidraw-aware follow-ups, evidence-grounded evaluation, validated transcript citations, server-only credentials, and ephemeral session storage.",
+    image: "/mockmeisterai.png",
+    github: "https://github.com/iamrobins/MockMeisterAI",
+    link: "https://mockmeisterai.iamrobin.dev",
+  },
+  {
     name: "MapInsight.ai",
-    description: "Plan your next travel with AI",
+    description: "An AI-powered travel planning application for discovering destinations and organizing trips.",
     image: "/mapinsight.png",
     github: "https://github.com/iamrobins/MapInsight",
     link: "https://mapinsight.vercel.app",
-  },
-  {
-    name: "Dogefiles.io",
-    description: "Free Secure Cloud Storage for Everyone with 30000 monthly visitors.",
-    image: "/dogefiles.png",
-    github: "https://github.com/iamrobins/dogefiles-web",
-    link: "https://www.dogefiles.io",
-  },
-  {
-    name: "DigiKeys",
-    description:
-      "DigiKey is an all-in-one payment processing and e-commerce solution. Accept payments, sell digital keys from your own and more, do it all with a single platform.",
-    image: "/digikeys.png",
-    github: "https://github.com/iamrobins/DigiKeys",
-    link: "https://www.youtube.com/watch?v=flauF5YODPg",
-  },
-  {
-    name: "Public Chat Board",
-    description:
-      "A public chat board with a machine learning model that filters toxicity in real-time.",
-    image: "/message-board.png",
-    github: "https://github.com/iamrobins/message-board-server",
-    link: "https://i.postimg.cc/yxGNKFsr/Slightly-Improved-Design.png",
   },
 ]
 
@@ -55,7 +40,7 @@ const ProjectsSection = () => {
                     <Link href={project.link}>
                       <Image
                         src={project.image}
-                        alt="Project Image"
+                        alt={`${project.name} project`}
                         width={1000}
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-70"
