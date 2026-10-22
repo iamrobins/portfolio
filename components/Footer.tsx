@@ -11,14 +11,21 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-        <a href="mailto:itsrobin4@gmail.com">
+          <a href="mailto:itsrobin4@gmail.com" aria-label="Email Robin Singh">
             <AiOutlineMail
+              aria-hidden="true"
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
-          <a href="https://github.com/iamrobins" rel="noreferrer" target="_blank">
+          <a
+            href="https://github.com/iamrobins"
+            rel="noreferrer"
+            target="_blank"
+            aria-label="Robin Singh on GitHub"
+          >
             <AiOutlineGithub
+              aria-hidden="true"
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
@@ -38,8 +45,10 @@ const Footer = () => {
             href="https://www.linkedin.com/in/robin-singh-uk"
             rel="noreferrer"
             target="_blank"
+            aria-label="Robin Singh on LinkedIn"
           >
             <AiOutlineLinkedin
+              aria-hidden="true"
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />

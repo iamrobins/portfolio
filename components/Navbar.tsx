@@ -42,10 +42,14 @@ export default function Navbar() {
             </Link>
             <div className="md:hidden">
               <button
+                type="button"
+                aria-label={navbar ? "Close navigation menu" : "Open navigation menu"}
+                aria-expanded={navbar}
+                aria-controls="primary-navigation"
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
-                {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
+                {navbar ? <IoMdClose size={30} aria-hidden="true" /> : <IoMdMenu size={30} aria-hidden="true" />}
               </button>
             </div>
           </div>
@@ -53,6 +57,7 @@ export default function Navbar() {
 
         <div>
           <div
+            id="primary-navigation"
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
@@ -79,17 +84,21 @@ export default function Navbar() {
               })}
               {currentTheme === "dark" ? (
                 <button
+                  type="button"
+                  aria-label="Switch to light theme"
                   onClick={() => setTheme("light")}
                   className="bg-slate-100 p-2 rounded-xl"
                 >
-                  <RiSunLine size={25} color="black" />
+                  <RiSunLine size={25} color="black" aria-hidden="true" />
                 </button>
               ) : (
                 <button
+                  type="button"
+                  aria-label="Switch to dark theme"
                   onClick={() => setTheme("dark")}
                   className="bg-slate-100 p-2 rounded-xl"
                 >
-                  <RiMoonFill size={25} />
+                  <RiMoonFill size={25} aria-hidden="true" />
                 </button>
               )}
             </div>

@@ -1,20 +1,33 @@
-# Tailwind CSS and Next.js Portfolio
+# Robin Singh — AI Backend Engineer
 
-This is a template for creating a portfolio with Tailwind CSS and Next.js.
+Source for [iamrobin.dev](https://iamrobin.dev), my portfolio for production GenAI infrastructure, agentic workflows, and backend engineering.
 
-<!-- ![Portfolio Demo](demo/demo.gif) -->
+## Featured work
 
-## How it works
+- **MockMeisterAI:** Real-time system design interviews with OpenAI Realtime WebRTC, Excalidraw-aware follow-ups, and evidence-grounded evaluation.
+- **MapInsight.ai:** A 2024 Google Maps review-insight project using GPT to surface concise sentiment themes.
 
-Fork or download the repo and change whatever you need to change for your needs.
+## Stack
 
-## Running Locally
+Next.js, React, TypeScript, Tailwind CSS, and `next-themes`.
 
-Can run the application in VS Code or a terminal and it will be available at `http://localhost:3000`.
+The site is statically rendered where possible, uses the Next.js Metadata API for search and social previews, and defaults to a light theme with an optional dark mode.
 
-Requires Node.js 24 LTS.
+## Local development
+
+Requires Node.js 24.
 
 ```bash
-npm install
+nvm use
+npm ci
 npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
+
+## Checks
+
+```bash
+npm run lint
+npm run build
 ```
