@@ -49,7 +49,7 @@ const projects = [
     ],
     image: "/mapinsight.png",
     github: "https://github.com/iamrobins/MapInsight",
-    link: "https://mapinsight.vercel.app",
+    link: "https://mapinsight.iamrobin.dev",
   },
 ]
 
