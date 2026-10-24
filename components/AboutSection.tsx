@@ -40,12 +40,12 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              At Publicis Sapient, I architect backend systems for Nissan and
-              Infiniti using FastAPI, Node.js, LangGraph, and multi-agent
+              At Publicis Sapient, I design and develop backend systems for Nissan 
+              and Infiniti using FastAPI, Node.js, LangGraph, and multi-agent
               orchestration. My work includes a customer-facing agentic chatbot
-              that increased engagement by 75%, a hybrid RAG training platform
-              that improved sales performance by 20%, and asynchronous
-              streaming APIs for a 3D vehicle configurator.
+              that enhanced customer engagement, a hybrid RAG training platform
+              that improved sales performance, and asynchronous streaming APIs
+              for a 3D vehicle configurator.
             </p>
             <br />
             <p>
